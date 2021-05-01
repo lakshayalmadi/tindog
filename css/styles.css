@@ -1,12 +1,15 @@
 body{
     font-family: 'Montserrat',sans-serif;
 }
+
+/* title */
+
 #title{
     background-color: #ff4c68;
     color: white; 
 }
 .container-fluid-1{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
     background-color: #ff4c68;
 }   
 h1 { 
@@ -17,24 +20,37 @@ h1 {
 .navbar{
     padding-bottom: 4.5rem;
 }
-.navbar-brand{
+.brand{
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 2.5rem!important;
 }
-.nav-item{
-    padding: 0px 18px;
+.nav-text{
+    font-size: 1.3rem;
+    margin: 0px 10px;
 }
 .download-button{
     margin: 5% 3% 5% 0;
 }
-.title-image{
-    width: 60%;
-    transform: rotate(25deg);
+.title-section{
+    padding-top: 7%;
+    padding-left: 1.5%;
 }
+.title-image{
+    width: 18%;
+    transform: rotate(25deg);
+    position:absolute;
+    right: 375px;
+}
+
+/* features */
+
 #features{
     text-align: center;
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
 .feature-box{
     padding:5%;
@@ -51,6 +67,9 @@ p{
     font-family: 'Ubuntu', sans-serif;
     color: #8f8f8f;
 }
+.icons{
+    padding:0 0.5% 2%;
+}
 i{
     padding-bottom: 10%;
 }
@@ -60,6 +79,9 @@ i{
 .feature-icon:hover{
     color:#ff4c68;
 }
+
+/* testimonials */
+
 #testimonials{
     padding: 7%;
     text-align: center;
@@ -74,23 +96,54 @@ i{
     border-radius: 100%;
     margin: 20px;
 }
-#press{
-    background-color: #ef8172;
-    text-align: center;
-    padding-bottom: 3%;
-}
-.press-logo{
-    width: 15%;
-    margin:20px 20px 50px;
-}
 
+/* pricing */
 #pricing{
     padding: 7% 15%;
     text-align: center;
 }
 .pricing-card{
-    background-color: #ef8172;
+    background-color: #ef8172!important;
 }
 .border-pricing{
-    border-color: #ef8172;
+    border-color: #ef8172!important;
+}
+.card-heading{
+    font-weight: 700!important;
+}
+
+/* cta */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 0 3%;
+    color: white;
+}
+.download-button1{
+    margin: 2% 0.5% 0;
+}
+
+/* footer */
+#footer{
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;   
+}
+p{
+    color: white;
+    margin-bottom: 0px!important;
+    padding-bottom: 2%;
+}
+
+@media(max-width:1076px){
+    .title-image{
+        transform: rotate(0deg);
+        position:static;
+        width:60%;
+    }
+    #title{
+        text-align: center;
+    }
+
 }
