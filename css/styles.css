@@ -1,6 +1,23 @@
 body{
     font-family: 'Montserrat',sans-serif;
 }
+h1,h2{ 
+    font-family: 'Montserrat',sans-serif; 
+    font-size: 3rem;
+    line-height: 1.5;   
+}
+h3{
+    font-family: 'Montserrat',sans-serif;
+}
+p{
+    font-family: 'Ubuntu', sans-serif;
+    color: #8f8f8f;
+}
+p{
+    color: white;
+    margin-bottom: 0px!important;
+    padding-bottom: 2%;
+}
 
 /* title */
 
@@ -12,11 +29,6 @@ body{
     padding: 3% 15% 7%;
     background-color: #ff4c68;
 }   
-h1 { 
-    font-family: 'Montserrat',sans-serif; 
-    font-size: 3rem;
-    line-height: 1.5;   
-}
 .navbar{
     padding-bottom: 4.5rem;
 }
@@ -55,20 +67,10 @@ h1 {
 .feature-box{
     padding:5%;
 }
-h2{
-    font-family:'Montserrat',sans-serif;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-h3{
-    font-family: 'Montserrat',sans-serif;
-}
-p{
-    font-family: 'Ubuntu', sans-serif;
-    color: #8f8f8f;
-}
+
 .icons{
     padding:0 0.5% 2%;
+    color:white;
 }
 i{
     padding-bottom: 10%;
@@ -130,12 +132,6 @@ i{
     text-align: center;
     color: white;   
 }
-p{
-    color: white;
-    margin-bottom: 0px!important;
-    padding-bottom: 2%;
-}
-
 @media(max-width:1076px){
     .title-image{
         transform: rotate(0deg);
@@ -146,4 +142,3 @@ p{
         text-align: center;
     }
 
-}
